@@ -356,7 +356,7 @@ class Layer:
 
         return None
 
-    def getTileResponse(self, coord, extension, ignore_cached=False):
+    def getTileResponse(self, coord, extension, ignore_cached=True):
         """ Get status code, headers, and a tile binary for a given request layer tile.
         
             Arguments:
